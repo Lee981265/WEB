@@ -3,10 +3,10 @@
 const schedule = require('node-schedule');
 const axios = require('axios');
 // 制作工具群
-// const webhook = 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=563b155b-988e-408b-893c-d12774f2cb9f';
+// const webhook = 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxxxxxxx';
 // 前端
-// const webhook = 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=fe710bc6-ae8e-4687-b51f-49a4560c297e';
-const webhook = 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=ab3be226-85fb-4b05-8e40-44e60e075b39';
+// const webhook = 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxxxxxxxx';
+const webhook = 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxxxxxxxxxxxxx';
 const fetch = axios.create({
   headers: {
     'content-type': 'application/json'
